@@ -14,12 +14,12 @@ pip install robostrippy
 ```
 
 ## Usage
-Let’s say you want to pull down information about a business from the Yellow Pages website.
+Let’s say you want to pull down information about the business from the Yellow Pages website:https://www.yellowpagesindia.co.in/.
 
 ### Single Item
 For the first example, let’s pretend you want a single business’ information and you already have the URL.
 
-First, create a class and then describe one of the items on the page that you want to pull out (in this case, the business details):
+then First, create a class and then describe one of the items on the page that you want to pull out (in this case, the business details):
 
 ```python
 #!/usr/bin/env python
@@ -96,4 +96,5 @@ title = attrCoalesce(('meta[property="og:title"]', {'attribute': 'content'}),
                      'title')
 ```
 
-See the examples folder for other examples.
+See the examples folder for other examples
+hope you may get better..
